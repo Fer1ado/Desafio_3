@@ -1,0 +1,9 @@
+comandos para inicializar el servidor:
+
+1) npm init --yes -->Inicializa el archivo package.json para ponerle modular y poder trabajar con imports
+2) npm i nodemon -D --> Instala Nodemon para que quede escuchando los cambios del proyecto y creando un servidor
+3) Cambio la secciòn de scripts del package.json para generar un script llamado "dev" que encierra el codigo de ejecuciòn del proyecto se inicia utilizando el comando: npm run dev
+4) Si en la secciòn scripts cambiamos node por nodemon entonces quedara corriendo el servidor
+5) Se puede hacer un servidor con el modulo nativo importando http, pero nosotros vamos a usar express para hacer servidores que simplifica los pasos express es una dependencia para usar express lo instalamos con npm install express
+6) PARA DESACTIVAR NODEMON USAR CTRL + C
+7) Generamos un servidor utilizando express
